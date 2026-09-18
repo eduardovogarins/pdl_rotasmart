@@ -27,7 +27,7 @@ O app deixa de calcular um score único. Cada auditoria produz **três notas de 
 
 | Pilar | Pergunta | Fonte | Quem age quando cai |
 |---|---|---|---|
-| **USO** | O cliente usa o serviço? | Log de eventos (automático) | Comercial / relacionamento |
+| **USO** | O cliente usa o serviço? | Log de eventos (automático) | OPS Corporativo |
 | **ENTREGA** | Cumprimos a manutenção? | Planilha de OS (automático) | PCP / planejamento |
 | **CONDIÇÃO** | O equipamento entrega o contratado? | Checklist manual + padrões do log | Técnica / manutenção |
 
@@ -167,7 +167,7 @@ Não existe uma fila de tratativa única. Cada pilar que cai abaixo de 75 gera u
 
 | Pilar abaixo de 75 | Fila | Dono | Prazo |
 |---|---|---|---|
-| USO | Contas em baixo uso | Comercial / relacionamento | 15 dias |
+| USO | Contas em baixo uso | OPS Corporativo | 15 dias |
 | ENTREGA | Pendências de atendimento | PCP / planejamento | 7 dias |
 | CONDIÇÃO | Manutenção técnica | Técnica | 15 dias, ou 7 se faixa Risco |
 
